@@ -152,8 +152,11 @@ figcaption {
     position: relative;
     top: -30px;
 }
-.photo:nth-of-type(even) figcaption{
+.photo:nth-child(2) figcaption, .photo:nth-child(8) figcaption, .photo:nth-child(9) figcaption, .photo:nth-child(10) figcaption, .photo:nth-child(11) figcaption, .photo:nth-child(12) figcaption {
     top: -270px;
+}
+.photo:nth-child(4) figcaption, .photo:nth-child(5) figcaption {
+    top: -620px;
 }
 .photo:nth-child(4) figcaption, .photo:nth-child(5) figcaption, .photo:nth-child(6) figcaption, .photo:nth-child(8) figcaption, .photo:nth-child(9) figcaption, .photo:nth-child(10) figcaption, .photo:nth-child(11) figcaption {
     color: #000000;
